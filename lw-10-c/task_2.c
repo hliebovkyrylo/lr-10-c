@@ -8,7 +8,7 @@ int task_2() {
     float x;
     const float pi = PI;
 
-    printf("  xi      sin(xi)  Порівняння  cos(xi)\n");
+    printf("  xi      sin(xi)  РџРѕСЂС–РІРЅСЏРЅРЅСЏ  cos(xi)\n");
     printf("----------------------------------------\n");
 
     for (x = 0; x <= 5 * pi; x += 0.5 * pi) {
