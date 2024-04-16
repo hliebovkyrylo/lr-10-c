@@ -8,7 +8,7 @@ int main() {
     SetConsoleOutputCP(1251);
     SetConsoleCP(1251);
     int choice;
-    printf("Виберіть програму (0 або 1): ");
+    printf("Р’РёР±РµСЂС–С‚СЊ РїСЂРѕРіСЂР°РјСѓ (0 Р°Р±Рѕ 1): ");
     scanf_s("%d", &choice);
 
     switch (choice) {
@@ -19,7 +19,7 @@ int main() {
         task_2();
         break;
     default:
-        printf("Некоректний вибір.\n");
+        printf("РќРµРєРѕСЂРµРєС‚РЅРёР№ РІРёР±С–СЂ.\n");
         break;
     }
 
