@@ -2,9 +2,9 @@
 
 #define MAX_HEIGHT 1000
 
-static int count = 0;
-
 int calculate_days(int H, int S1, int S2) {
+	static int count = 0;
+
 	const int DISTANCE_FORWARD = S1;
 	const int DISTANCE_BACKWARD = S2;
 
