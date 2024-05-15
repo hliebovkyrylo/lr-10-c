@@ -2,6 +2,8 @@
 #include "mathFunctions.h"
 
 #define COUNTER 0
+#define SIN_FUNC(x) sin_func(x)
+#define COS_FUNC(x) cos_func(x)
 
 float sin_func(float x) {
     return sin(x);
