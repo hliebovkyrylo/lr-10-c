@@ -1,11 +1,7 @@
 #include <stdio.h>
 #include "caterpillar.h"
-#include <windows.h>
 
 int task_1() {
-    SetConsoleCP(1251);
-    SetConsoleOutputCP(1251);
-
     int H, S1, S2;
     int days;
 

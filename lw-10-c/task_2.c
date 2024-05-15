@@ -1,11 +1,7 @@
 #include <stdio.h>
 #include "mathFunctions.h"
-#include <windows.h>
 
 int task_2() {
-    SetConsoleOutputCP(1251);
-    SetConsoleCP(1251);
-
     float x;
     const float pi = PI;
     printf(" xi sin(xi) Comparing cos(xi)\n");
