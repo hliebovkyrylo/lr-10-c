@@ -4,7 +4,6 @@
 #define CALCULATE_DAYS(H, S1, S2) calculate_days(H, S1, S2)
 
 int calculate_days(int H, int S1, int S2) {
-    int count = 0;
     const int DISTANCE_FORWARD = S1;
     const int DISTANCE_BACKWARD = S2;
 
@@ -13,7 +12,7 @@ int calculate_days(int H, int S1, int S2) {
     }
 
     int distance = H;
-    int days = 0;
+    static int days = 0;
 
     while (distance > 0) {
         distance -= DISTANCE_FORWARD;
@@ -24,6 +23,5 @@ int calculate_days(int H, int S1, int S2) {
         days++;
     }
 
-    count++;
     return days;
 }
